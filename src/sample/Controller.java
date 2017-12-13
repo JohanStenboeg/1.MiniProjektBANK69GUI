@@ -94,7 +94,7 @@ public class Controller {
      */
     /*Opret test DB*/
 
-
+    @FXML
     private Button btn_opretDBTing;
     /**
      * Javafx klasser for overfør siden på GUI'en, med labels, knapper og textfelter.
@@ -219,6 +219,7 @@ public class Controller {
             sqlStatement.insertTestKunder();
             sqlStatement.insertTestKonto();
         }
+
         if (e.getSource() == btn_nyKonto) {
             System.out.println("Button nykunde virker");
         }
