@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sample</OriginalElement>
+  <nodes>
+    <node x="344.1428571428572" y="7.142857142857139">sample.Main</node>
+    <node x="132.5" y="0.0">sample.DB_Connector</node>
+    <node x="88.0" y="734.0">sample.Controller</node>
+    <node x="0.0" y="213.0">sample.DB_Statements</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.Controller" target="sample.DB_Statements">
+      <point x="-69.0" y="-565.5" />
+      <point x="157.0" y="709.0" />
+      <point x="113.0" y="709.0" />
+      <point x="-113.0" y="235.5" />
+    </edge>
+    <edge source="sample.DB_Statements" target="sample.DB_Connector">
+      <point x="0.0" y="-235.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="457.9999999999999" y="10.428571428571388" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
